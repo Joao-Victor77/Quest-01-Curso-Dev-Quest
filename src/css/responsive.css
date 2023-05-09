@@ -1,0 +1,68 @@
+@media(max-width: 1250px) {
+
+    body {
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        background-image: url(../images/bg-mobile.svg);
+        grid-template-areas: "header"
+            "imagem"
+            "info"
+            "icons-redes-sociais";
+    }
+
+    .header {
+        grid-area: header;
+        width: 60%;
+        height: auto;
+    }
+
+
+    .image-logo {
+        text-align: end;
+    }
+
+    img {
+        width: 60%;
+        height: auto;
+        margin-right: 100px;
+    }
+
+    .info {
+        grid-area: info;
+        margin-top: 60px;
+        margin-bottom: 130px;
+        width: 60%;
+        height: auto;
+        text-align: center;
+    }
+
+
+
+    .title-info {
+
+        text-align: center;
+        margin-left: 40px;
+        width: 100%;
+    }
+
+
+    p {
+        width: 130%;
+    }
+
+    .btn {
+        margin-left: 70px;
+
+    }
+
+
+    .icons-redes-sociais {
+        grid-area: icons-redes-sociais;
+        text-align: center;
+        margin-left: 100px;
+
+    }
+
+}

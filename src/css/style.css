@@ -1,0 +1,108 @@
+html {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+}
+
+
+
+body {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-areas: "header header"
+        "imagem info"
+        ". icons-redes-sociais";
+}
+
+
+.header {
+    grid-area: header;
+}
+
+.imagem {
+    grid-area: imagem;
+}
+
+.info {
+    grid-area: info;
+}
+
+.icons-redes-sociais {
+    grid-area: icons-redes-sociais;
+}
+
+
+.header {
+    padding: 40px 10px;
+}
+
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+p {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 19px;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    border: #ffffff;
+    color: hsl(257, 40%, 49%);
+}
+
+
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.7s;
+    color: #ffffff;
+}
+
+img {
+    padding: 0 50px;
+}
+
+
+.info {
+    width: 320px;
+    margin-right: 170px;
+
+}
+
+
+.icons-redes-sociais {
+
+    text-align: end;
+    margin-right: 190px;
+}
+
+
+
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-f {
+    padding: 10px;
+    font-size: 30px;
+    margin-top: -70px;
+    border: 1.9px solid;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-facebook-f:hover {
+    border-radius: 30px;
+    transition: 0.7s;
+    color: hsl(300, 69%, 71%);
+}
+
